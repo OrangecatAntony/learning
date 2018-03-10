@@ -1,4 +1,4 @@
-//为什么不写后缀
+//为什么不写后缀 执行错误
 const { query } = require('./promise_db') //对象？？？？？？
 async function selectAllData( ) {
   let sql = 'SELECT * FROM my_table'
